@@ -1,0 +1,121 @@
+{
+  "bpm": 170,
+  "time_signature": "4/4",
+  "bars": 199,
+  "score_duration_seconds": 280.941,
+  "sample_rate": 32000,
+  "mora_count": 1588,
+  "midi": {
+    "arpeggio.mid": {
+      "tracks": 2,
+      "note_count": 1760,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "bass.mid": {
+      "tracks": 2,
+      "note_count": 991,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "chords.mid": {
+      "tracks": 2,
+      "note_count": 1114,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "counter_melody.mid": {
+      "tracks": 2,
+      "note_count": 188,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "drums.mid": {
+      "tracks": 2,
+      "note_count": 3505,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "full_song.mid": {
+      "tracks": 8,
+      "note_count": 9394,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "lead_synth.mid": {
+      "tracks": 2,
+      "note_count": 248,
+      "duration_seconds": 280.941,
+      "valid": true
+    },
+    "vocal_melody.mid": {
+      "tracks": 2,
+      "note_count": 1588,
+      "duration_seconds": 280.941,
+      "valid": true
+    }
+  },
+  "audio": {
+    "instrumental.wav": {
+      "seconds": 284.44115625,
+      "peak_dbfs": -2.39,
+      "rms_dbfs": -18.86,
+      "channels": 2,
+      "last_sample": [
+        0,
+        0
+      ],
+      "loudness_lufs": -16.59,
+      "true_peak_dbtp": -1.95,
+      "full_decode_valid": true
+    },
+    "guide_mix.wav": {
+      "seconds": 284.44115625,
+      "peak_dbfs": -2.52,
+      "rms_dbfs": -18.75,
+      "channels": 2,
+      "last_sample": [
+        0,
+        0
+      ],
+      "loudness_lufs": -16.38,
+      "true_peak_dbtp": -2.01,
+      "full_decode_valid": true
+    },
+    "preview.mp3": {
+      "loudness_lufs": -16.64,
+      "true_peak_dbtp": -2.12,
+      "full_decode_valid": true
+    }
+  },
+  "rap": {
+    "bars": 79,
+    "morae": 882,
+    "active_morae_per_second": 11.333,
+    "sixteenth_note_seconds": 0.088235
+  },
+  "strong_beat_chord_alignment": {
+    "Verse 1": {
+      "matched": 30,
+      "tested": 30
+    },
+    "Chorus": {
+      "matched": 26,
+      "tested": 26
+    },
+    "Final Chorus": {
+      "matched": 26,
+      "tested": 26
+    }
+  },
+  "checks": {
+    "all_midis_readable": true,
+    "no_stuck_notes": true,
+    "tempo_170": true,
+    "mora_note_lyric_event_counts_equal": true,
+    "vocal_notes_monophonic": true,
+    "wav_and_mp3_fully_decoded": true,
+    "true_peak_below_zero": true,
+    "final_tail_fades_to_zero": true
+  }
+}

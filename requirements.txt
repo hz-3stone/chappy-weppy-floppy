@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+mido
+# FFmpeg is also required as a system executable.
